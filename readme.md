@@ -44,7 +44,7 @@ DZ 🇩🇿   Algeria
 AS 🇦🇸   American Samoa
 ```
 
-### Page weight
+### Page weight (browserified)
 
 | compression          |    size |
 | :------------------- | ------: |
