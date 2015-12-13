@@ -1,6 +1,6 @@
 {
   "name": "emoji-flag",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a simple module that takes a country code and returns an emoji flag",
   "main": "index.js",
   "dependencies": {
