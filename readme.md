@@ -14,12 +14,22 @@ $ npm install emoji-flag
 
 ```js
 var flag = require('emoji-flag')
+var code = require('emoji-flag/to-country-code')
 
 flag('AU')
 => 🇦🇺
 
 flag('CA')
 => 🇨🇦
+
+code('🇦🇺')
+=> 'AU'
+
+code('🇨🇦')
+=> 'CA'
+
+code(flag('AU'))
+=> 'AU'
 
 // and so on…
 ```
@@ -48,10 +58,9 @@ AS 🇦🇸   American Samoa
 
 | compression          |    size |
 | :------------------- | ------: |
-| emoji-flag.js        | 1.68 kB |
-| emoji-flag.min.js    |   868 B |
-| emoji-flag.min.js.gz |   486 B |
-
+| emoji-flag.js        | 1.76 kB |
+| emoji-flag.min.js    |   925 B |
+| emoji-flag.min.js.gz |   502 B |
 
 
 ## What about the `emoji-flags` module?!
